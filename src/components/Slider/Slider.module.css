@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+  height: 85vh;
+  width: 35vw;
+  background-color: transparent;
+  transition: 100ms;
+  opacity: 0.9;
+}
+
+.slider_right_button {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  color: grey;
+  font-size: 2rem;
+}
+
+.slider_left_button {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  color: grey;
+  font-size: 2rem;
+}
+
+.show_button {
+  display: inline;
+}
+
+.hide_button {
+  display: none;
+}
+
+@media screen and (max-width: 756px) {
+  .slider {
+    width: 80vw;
+    height: 85vh;
+  }
+}
