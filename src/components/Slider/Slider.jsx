@@ -46,6 +46,7 @@ const Slider = ({ children, onChangeIndex, index, listLength, onClick }) => {
       if (autoplay) {
         intervalId = setInterval(() => {
           if (index === listLength - 1) {
+            // eslint-disable-next-line react-hooks/exhaustive-deps
             index = 0;
           }
           handleRightButtonClick();
