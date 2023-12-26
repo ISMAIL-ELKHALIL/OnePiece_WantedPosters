@@ -1,7 +1,7 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import css from "./App.module.css";
 import Slider from "./components/Slider/Slider";
-import AutoPlayButton from "./components/Buttons/AutoPlayButton";
+
 function App() {
   const [index, setIndex] = useState(5);
   const audioRef = useRef(null);
