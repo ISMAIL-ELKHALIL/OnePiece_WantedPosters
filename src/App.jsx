@@ -41,7 +41,6 @@ function App() {
     setAudioPlayed(false);
   }; */
 
-  console.log(index);
   return (
     <div>
       <audio
@@ -71,6 +70,7 @@ function App() {
         >
           <div style={{ width: "100%", height: "100%" }}>
             <img
+              key={index}
               className={css.posterImg}
               src={wantedPosterImages[index].url}
               alt={wantedPosterImages[index].name}
